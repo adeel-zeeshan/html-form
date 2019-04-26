@@ -3,182 +3,212 @@
    <head>
       <title>from</title>
       <link href="bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-      <script src="bootstrap.min.js"></script>
       <script src="jquery-1.11.1.min.js"></script>
+      <script src="bootstrap.min.js"></script>
       <link href="ion-slider.min.css" rel="stylesheet">
       <script src="ion-slider.min.js"></script>
-      <link href="style.css" rel="stylesheet">
+      <link href="style.min.css" rel="stylesheet">
    </head>
    <body>
       <div class="container py-3">
          <div class="row">
             <div class="col-md-10">
-               <div class="form-container">
-                  <form>
-                     <div class="row upper-row">
-                        <div class="col-md-4">
-                           <h5>heading1</h5>
-                           <div class="row no-gutters">
-                              <div class="col-md-6">
-                                 <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                       <span class="input-group-text">@</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="4329" id="range1-min" name="range1-min">
-                                 </div>
-                              </div>
-                              <div class="col-md-6">
-                                 <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                       <span class="input-group-text">@</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="340" id="range1-max" name="range1-max">
-                                 </div>
-                              </div>
-                              <div class="col-md-12">
-                                 <input type="text" class="form-control" placeholder="range" id="range1" name="range1">
-                              </div>
-                           </div>
+               <div class="row">
+                  <div class="col-md-7">
+                     <div class="form-options-container">
+                        <div><span>Category no: </span></div>
+                        <div class="selectdiv">
+                           <select>
+                              <option selected="selected">Random</option>
+                              <option >MyVal</option>
+                           </select>
                         </div>
-                        <div class="col-md-4">
-                           <h5>heading2</h5>
-                           <div class="row no-gutters">
-                              <div class="col-md-6">
-                                 <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                       <span class="input-group-text">@</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="21" id="range2-min" name="range2-min">
-                                 </div>
-                              </div>
-                              <div class="col-md-6">
-                                 <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                       <span class="input-group-text">@</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="543" id="range2-max" name="range2-max">
-                                 </div>
-                              </div>
-                              <div class="col-md-12">
-                                 <input class="form-control" placeholder="range" id="range2" type="text" name="range2">
-                              </div>
-                           </div>
+                        <div class="selectdiv">
+                           <select>
+                              <option selected="selected">Your opt</option>
+                              <option >Xvzn</option>
+                           </select>
                         </div>
-                        <div class="col-md-4">
-                           <h5>heading3</h5>
-                           <div class="row no-gutters">
-                              <div class="col-md-6">
-                                 <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                       <span class="input-group-text">@</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="180" id="range3-min" name="range3-min">
-                                 </div>
-                              </div>
-                              <div class="col-md-6">
-                                 <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                       <span class="input-group-text">@</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="421" id="range3-max" name="range3-max">
-                                 </div>
-                              </div>
-                              <div class="col-md-12">
-                                 <input class="form-control" placeholder="range" id="range3" type="text" name="range3">
-                              </div>
-                           </div>
+                        <div class="selectdiv">
+                           <select>
+                              <option selected="selected">1</option>
+                              <option >2</option>
+                           </select>
                         </div>
                      </div>
-                     <div class="row second-row">
-                        <div class="col-md-4">
-                           <h5>heading checkbox 1</h5>
-                           <div class="custom-checkbox">
-                              <input type="checkbox" id="checkbox1" />
-                              <label for="checkbox1">checkbox</label>
+                  </div>
+                  <div class="col-md-5">
+                     <div class="form-collapse-link"><a href="#form-collapse" data-toggle="collapse" aria-expanded="false" aria-controls="form-collapse">&#9776;&nbsp;Close</a></div>
+                  </div>
+               </div>
+               <div id="form-collapse" class="collapse show form-collapse-container">
+                  <div class="form-container">
+                     <form>
+                        <div class="row upper-row">
+                           <div class="col-md-4">
+                              <h5>heading1</h5>
+                              <div class="row no-gutters">
+                                 <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                       <div class="input-group-prepend">
+                                          <span class="input-group-text">@</span>
+                                       </div>
+                                       <input type="text" class="form-control" placeholder="100" id="range1-min" name="range1-min">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                       <div class="input-group-prepend">
+                                          <span class="input-group-text">@</span>
+                                       </div>
+                                       <input type="text" class="form-control" placeholder="1000" id="range1-max" name="range1-max">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-12">
+                                    <input type="text" class="form-control" placeholder="range" id="range1" name="range1">
+                                 </div>
+                              </div>
                            </div>
-                           <div class="custom-checkbox">
-                              <input type="checkbox" id="checkbox2" />
-                              <label for="checkbox2">checkboxcheckbox</label>
+                           <div class="col-md-4">
+                              <h5>heading2</h5>
+                              <div class="row no-gutters">
+                                 <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                       <div class="input-group-prepend">
+                                          <span class="input-group-text">@</span>
+                                       </div>
+                                       <input type="text" class="form-control" placeholder="21" id="range2-min" name="range2-min">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                       <div class="input-group-prepend">
+                                          <span class="input-group-text">@</span>
+                                       </div>
+                                       <input type="text" class="form-control" placeholder="543" id="range2-max" name="range2-max">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-12">
+                                    <input class="form-control" placeholder="range" id="range2" type="text" name="range2">
+                                 </div>
+                              </div>
                            </div>
-                           <div class="custom-checkbox">
-                              <input type="checkbox" id="checkbox3" />
-                              <label for="checkbox3">checkbox checkbox</label>
-                           </div>
-                           <div class="custom-checkbox">
-                              <input type="checkbox" id="checkbox4" />
-                              <label for="checkbox4">checkbox dd</label>
-                           </div>
-                           <div class="custom-checkbox">
-                              <input type="checkbox" id="checkbox5" />
-                              <label for="checkbox5">checkbox</label>
-                           </div>
-                           <div class="custom-checkbox">
-                              <input type="checkbox" id="checkbox6" />
-                              <label for="checkbox6">checkbox checkbox</label>
-                           </div>
-                           <div class="custom-checkbox">
-                              <input type="checkbox" id="checkbox7" />
-                              <label for="checkbox7">checkboxcheckbox</label>
+                           <div class="col-md-4">
+                              <h5>heading3</h5>
+                              <div class="row no-gutters">
+                                 <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                       <div class="input-group-prepend">
+                                          <span class="input-group-text">@</span>
+                                       </div>
+                                       <input type="text" class="form-control" placeholder="180" id="range3-min" name="range3-min">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                       <div class="input-group-prepend">
+                                          <span class="input-group-text">@</span>
+                                       </div>
+                                       <input type="text" class="form-control" placeholder="421" id="range3-max" name="range3-max">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-12">
+                                    <input class="form-control" placeholder="range" id="range3" type="text" name="range3">
+                                 </div>
+                              </div>
                            </div>
                         </div>
-                        <div class="col-md-4">
-                           <div class="middle-1">
-                              <h5>heading checkbox 2</h5>
+                        <div class="row second-row">
+                           <div class="col-md-4">
+                              <h5>heading checkbox 1</h5>
                               <div class="custom-checkbox">
-                                 <input type="checkbox" id="checkbox8" />
-                                 <label for="checkbox8">220</label>
+                                 <input type="checkbox" id="checkbox1" />
+                                 <label for="checkbox1">checkbox</label>
                               </div>
                               <div class="custom-checkbox">
-                                 <input type="checkbox" id="checkbox9" />
-                                 <label for="checkbox9">380</label>
+                                 <input type="checkbox" id="checkbox2" />
+                                 <label for="checkbox2">checkboxcheckbox</label>
+                              </div>
+                              <div class="custom-checkbox">
+                                 <input type="checkbox" id="checkbox3" />
+                                 <label for="checkbox3">checkbox checkbox</label>
+                              </div>
+                              <div class="custom-checkbox">
+                                 <input type="checkbox" id="checkbox4" />
+                                 <label for="checkbox4">checkbox dd</label>
+                              </div>
+                              <div class="custom-checkbox">
+                                 <input type="checkbox" id="checkbox5" />
+                                 <label for="checkbox5">checkbox</label>
+                              </div>
+                              <div class="custom-checkbox">
+                                 <input type="checkbox" id="checkbox6" />
+                                 <label for="checkbox6">checkbox checkbox</label>
+                              </div>
+                              <div class="custom-checkbox">
+                                 <input type="checkbox" id="checkbox7" />
+                                 <label for="checkbox7">checkboxcheckbox</label>
                               </div>
                            </div>
-                           <div class="middle-2">
+                           <div class="col-md-4">
+                              <div class="middle-1">
+                                 <h5>heading checkbox 2</h5>
+                                 <div class="custom-checkbox">
+                                    <input type="checkbox" id="checkbox8" />
+                                    <label for="checkbox8">220</label>
+                                 </div>
+                                 <div class="custom-checkbox">
+                                    <input type="checkbox" id="checkbox9" />
+                                    <label for="checkbox9">380</label>
+                                 </div>
+                              </div>
+                              <div class="middle-2">
+                                 <h5>heading checkbox 3</h5>
+                                 <div class="custom-checkbox">
+                                    <input type="checkbox" id="checkbox10" />
+                                    <label for="checkbox10">checkbox</label>
+                                 </div>
+                                 <div class="custom-checkbox">
+                                    <input type="checkbox" id="checkbox11" />
+                                    <label for="checkbox11">checkbox</label>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
                               <h5>heading checkbox 3</h5>
                               <div class="custom-checkbox">
-                                 <input type="checkbox" id="checkbox10" />
-                                 <label for="checkbox10">checkbox</label>
+                                 <input type="checkbox" id="checkbox12" />
+                                 <label for="checkbox12">Check Check box</label>
                               </div>
                               <div class="custom-checkbox">
-                                 <input type="checkbox" id="checkbox11" />
-                                 <label for="checkbox11">checkbox</label>
+                                 <input type="checkbox" id="checkbox13" />
+                                 <label for="checkbox13">Check Box</label>
+                              </div>
+                              <div class="custom-checkbox">
+                                 <input type="checkbox" id="checkbox14" />
+                                 <label for="checkbox14">checkBox</label>
                               </div>
                            </div>
                         </div>
-                        <div class="col-md-4">
-                           <h5>heading checkbox 3</h5>
-                           <div class="custom-checkbox">
-                              <input type="checkbox" id="checkbox12" />
-                              <label for="checkbox12">Check Check box</label>
-                           </div>
-                           <div class="custom-checkbox">
-                              <input type="checkbox" id="checkbox13" />
-                              <label for="checkbox13">Check Box</label>
-                           </div>
-                           <div class="custom-checkbox">
-                              <input type="checkbox" id="checkbox14" />
-                              <label for="checkbox14">checkBox</label>
+                        <div class="row third-row">
+                           <div class="col-md-12">
+                              <div class="form-controls">
+                                 <button type="submit" class="form-btn btn-red" value="Submit">Submit</button>
+                                 <button type="reset" class="form-btn btn-dark" value="Reset">Cancle</button>
+                              </div>
                            </div>
                         </div>
-                     </div>
-                     <div class="row third-row">
-                        <div class="col-md-12">
-                           <div class="form-controls">
-                           <button type="submit" class="form-btn btn-red" value="Submit">Submit</button>
-                           <button type="reset" class="form-btn btn-dark" value="Reset">Cancle</button>
-                        </div>
-                        </div>
-                     </div>
-                  </form>
+                     </form>
+                  </div>
+                  <!--/form-container-->
                </div>
-               <!--/form-container-->
+               <!--/form-collapse-container-->
             </div>
             <!--/col-->
          </div>
          <!--/row-->
       </div>
       <!--/container-->
-
-      <script src="Xvdnz-slider.js"></script>
+      <script src="Xvdnz-slider.min.js"></script>
    </body>
 </html>
